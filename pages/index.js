@@ -46,7 +46,7 @@ export default function Home() {
   };
 
   const handleReload = () => {
-    window.location.reload();
+    setPrediction(null); // Reset the prediction state
   };
 
   return (
@@ -54,13 +54,7 @@ export default function Home() {
         <Head>
           <title>Fashion Illustrator</title>
         </Head>
-        {/* Reload Button */}
-        <button
-          className="absolute top-5 right-5 font-mono bg-blue-700 text-white px-4 py-2 rounded-md hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-700"
-          onClick={handleReload}
-        >
-          Try again
-        </button>
+        
         {/* Site Logo */}
         <div className="p-8">
           <Image
@@ -108,6 +102,13 @@ export default function Home() {
               </div>
             )}
             <p className="text-green-600 font-mono">Status: {prediction.status}</p>
+            {/* Reload Button */}
+            <button
+              className="absolute top-5 right-5 font-mono bg-blue-700 text-white px-4 py-2 rounded-md hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-700"
+              onClick={handleReload}
+            >
+              Try again
+            </button>
           </div>
         )}
       </div>
