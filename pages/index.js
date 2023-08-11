@@ -45,24 +45,35 @@ export default function Home() {
     }
   };
 
+  const handleReload = () => {
+    window.location.reload();
+  };
+
   return (
-    <div className="bg-black min-h-screen flex flex-col justify-center items-center bg-[url('/76YS.gif')]">
+    <div className="bg-black min-h-screen w-screen flex flex-col justify-center items-center bg-[url('/76YS.gif')]">
         <Head>
           <title>Fashion Illustrator</title>
         </Head>
+        {/* Reload Button */}
+        <button
+          className="absolute top-5 right-5 font-mono bg-blue-700 text-white px-4 py-2 rounded-md hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-700"
+          onClick={handleReload}
+        >
+          Try again
+        </button>
         {/* Site Logo */}
         <div className="p-8">
           <Image
             src="/logo.png" // Update with your logo image path
             alt="Site Logo"
-            width={200}
-            height={200}
+            width={170}
+            height={170}
           />
         </div>
-        <div className="w-max max-w-md p-6 bg-stone-950 rounded-2xl bg-opacity-70 shadow-md">
-        <p className="text-lg font-mono mb-1">
-          Describe your sketch, be as detailed as you'd like!
-        </p>
+        <div className="p-6 bg-stone-950 rounded-2xl bg-opacity-70 shadow-md">
+          <p className="text-lg font-mono mb-1">
+            Describe your sketch, be as detailed as you'd like!
+          </p>
 
         <form className="bg-colo p-2 rounded-lg" onSubmit={handleSubmit}>
           <input
