@@ -65,7 +65,7 @@ export default function Home() {
           />
         </div>
         <div className="p-6 bg-stone-950 rounded-2xl bg-opacity-70 shadow-md">
-          <p className="text-lg font-mono mb-1">
+          <p className="text-lg font-mono mb-1 text-white">
             Describe your sketch, be as detailed as you'd like!
           </p>
 
