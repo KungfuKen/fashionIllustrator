@@ -4,6 +4,7 @@ import { useState } from "react";
 import Head from "next/head";
 import Image from "next/image";
 import "../styles/globals.css";
+import { Analytics } from '@vercel/analytics/react';
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
@@ -112,6 +113,7 @@ export default function Home() {
           </div>
         )}
       </div>
+      <Analytics />
     </div>
   );
 }
