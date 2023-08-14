@@ -51,22 +51,108 @@ export default function Home() {
   };
 
   return (
-    <div className="bg-black min-h-screen w-screen flex flex-col justify-center items-center bg-[url('/76YS.gif')]">
+    <div className="bg-gradient-to-b from-black via-black to-gray-900 min-h-screen overflow-y-auto flex-col justify-center items-center]">
         <Head>
-          <title>Fashion Illustrator</title>
+          <title>Fashion Sketch App</title>
         </Head>
-        
-        {/* Site Logo */}
-        <div className="p-8">
+        <p className="font-bold font-lg absolute top-3 left-3 pb-10"> Fashion Sketch App</p>
+        {/* Heading and Site Logo */}
+        <div className="pt-12 pb-4">
+          <h1 className="text-4xl font-sans font-bold text-center">
+            Make beautiful fashion sketch designs without drawing
+          </h1>
           <Image
-            src="/logo.png" // Update with your logo image path
+            className="mx-auto p-3"
+            src="/icon.png" // Update with your logo image path
             alt="Site Logo"
-            width={170}
-            height={170}
+            width={200}
+            height={200}
           />
         </div>
+        {/* Info and media about app capabilities */}
+        <div className="text-left p-8">
+          <p className="font-bold font-lg">
+            Create beautiful fashion designs quickly and easily by using verbal discriptions. 
+            Make edits and adjust your designs easily with online tools. 
+          </p>
+          <div className="rounded-2xl p-8">
+            <Image
+              className="mx-auto rounded-3xl opacity-80"
+              src="/frontPageGif.gif" 
+              alt="Site Logo"
+              width={270}
+              height={500}
+            />
+          </div>
+          <h1 className="text-4xl font-sans font-bold pb-4">
+            Create beautiful designs
+          </h1>
+          <p className="font-bold font-lg">
+             Write descriptions of the fashion designs you would like to create, you can be as detailed as you like. 
+             This will then generate the image of this description.
+          </p>
+          <div className="rounded-2xl p-8">
+            <Image
+              className="mx-auto rounded-3xl opacity-80"
+              src="/PromptExample.gif" 
+              alt="Site Logo"
+              width={270}
+              height={500}
+            />
+          </div>
+          <h1 className="text-4xl font-sans font-bold pb-4">
+            Edit designs to perfection
+          </h1>
+          <p className="font-bold font-lg">
+             Fine tune your designs with the editor. Draw on details you would like to edit or remove and the designs will be 
+             recreated with your changes. 
+          </p>
+          <div className="rounded-2xl p-8">
+            <Image
+              className="mx-auto rounded-3xl opacity-80"
+              src="/ShoulderEdit.gif" 
+              alt="Site Logo"
+              width={270}
+              height={500}
+            />
+          </div>
+          <h1 className="text-4xl font-sans font-bold pb-4">
+            Get inspiration
+          </h1>
+          <p className="font-bold font-lg">
+            You get inspiration from our gallary of pervious designs. You can edit pervious designs and make them your own.
+          </p>
+          <div className="rounded-2xl p-8">
+            <Image
+              className="mx-auto rounded-3xl opacity-80"
+              src="/gallary.png" 
+              alt="Site Logo"
+              width={300}
+              height={500}
+            />
+          </div>
+        </div>
+        
+        <div className="rounded-lg w-1/2 p-8 bg-stone-950 mx-auto">
+          <p className="text-lg font-sans mb-1 text-white">
+          </p>
+          <form className="w-full" >
+            <input
+              type="text"
+              name="sign up"
+              placeholder="Type your email..."
+              className="w-full font-sans bg-black text-white px-3 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+            />
+            <button
+              type="submit"
+              className="m-2 p-2 font-sans px-4 py-2 bg-blue-700 text-white rounded-md hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-700"
+            >
+              Create
+            </button>
+          </form>
+        </div>
         <div className="p-6 bg-stone-950 rounded-2xl bg-opacity-70 shadow-md">
-          <p className="text-lg font-mono mb-1 text-white">
+          <p className="text-lg font-sans mb-1 text-white">
             Describe your sketch, be as detailed as you'd like!
           </p>
 
@@ -75,11 +161,11 @@ export default function Home() {
             type="text"
             name="prompt"
             placeholder="Enter a description here"
-            className="w-full font-mono bg-black text-white px-3 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full font-sans bg-black text-white px-3 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
           <button
             type="submit"
-            className="mt-4 p-2 font-mono px-4 py-2 bg-blue-700 text-white rounded-md hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-700"
+            className="mt-4 p-2 font-sans px-4 py-2 bg-blue-700 text-white rounded-md hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-700"
           >
             Create
           </button>
@@ -102,10 +188,10 @@ export default function Home() {
                 />
               </div>
             )}
-            <p className="text-green-600 font-mono">Status: {prediction.status}</p>
+            <p className="text-green-600 font-sans">Status: {prediction.status}</p>
             {/* Reload Button */}
             <button
-              className="absolute top-5 right-5 font-mono bg-blue-700 text-white px-4 py-2 rounded-md hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-700"
+              className="absolute top-5 right-5 font-sans bg-blue-700 text-white px-4 py-2 rounded-md hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-700"
               onClick={handleReload}
             >
               Try again
