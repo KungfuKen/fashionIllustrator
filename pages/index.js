@@ -55,10 +55,10 @@ export default function Home() {
         <Head>
           <title>Fashion Sketch App</title>
         </Head>
-        <p className="font-bold font-lg absolute top-3 left-3 pb-10"> Fashion Sketch App</p>
+        <p className="font-bold font-lg absolute text-white top-3 left-3 pb-10"> Fashion Sketch App</p>
         {/* Heading and Site Logo */}
         <div className="pt-12 pb-4">
-          <h1 className="text-4xl font-sans font-bold text-center">
+          <h1 className="text-4xl font-sans text-white font-bold text-center">
             Make beautiful fashion sketch designs without drawing
           </h1>
           <Image
@@ -71,7 +71,7 @@ export default function Home() {
         </div>
         {/* Info and media about app capabilities */}
         <div className="text-left p-8">
-          <p className="font-bold font-lg">
+          <p className="font-bold text-white font-lg">
             Create beautiful fashion designs quickly and easily by using verbal discriptions. 
             Make edits and adjust your designs easily with online tools. 
           </p>
@@ -84,10 +84,10 @@ export default function Home() {
               height={500}
             />
           </div>
-          <h1 className="text-4xl font-sans font-bold pb-4">
+          <h1 className="text-4xl text-white font-sans font-bold pb-4">
             Create beautiful designs
           </h1>
-          <p className="font-bold font-lg">
+          <p className="font-bold text-white font-lg">
              Write descriptions of the fashion designs you would like to create, you can be as detailed as you like. 
              This will then generate the image of this description.
           </p>
@@ -100,10 +100,10 @@ export default function Home() {
               height={500}
             />
           </div>
-          <h1 className="text-4xl font-sans font-bold pb-4">
+          <h1 className="text-4xl text-white font-sans font-bold pb-4">
             Edit designs to perfection
           </h1>
-          <p className="font-bold font-lg">
+          <p className="font-bold text-white font-lg">
              Fine tune your designs with the editor. Draw on details you would like to edit or remove and the designs will be 
              recreated with your changes. 
           </p>
@@ -116,10 +116,10 @@ export default function Home() {
               height={500}
             />
           </div>
-          <h1 className="text-4xl font-sans font-bold pb-4">
+          <h1 className="text-4xl text-white font-sans font-bold pb-4">
             Get inspiration
           </h1>
-          <p className="font-bold font-lg">
+          <p className="font-bold text-white font-lg">
             You get inspiration from our gallary of pervious designs. You can edit pervious designs and make them your own.
           </p>
           <div className="rounded-2xl p-8">
