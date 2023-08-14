@@ -55,22 +55,39 @@ export default function Home() {
         <Head>
           <title>Fashion Sketch App</title>
         </Head>
-        <p className="font-bold font-lg absolute text-white top-3 left-3 pb-10"> Fashion Sketch App</p>
+
+        {/* Site banner*/}
+        <div className="w-screen h-20 bg-stone-900">
+          <Image
+              className="top-3 left-4 absolute"
+              src="/Logo.png" // 
+              alt="Site Logo"
+              width={150}
+              height={70}
+            />
+          <button className="font-bold font-lg bg-gradient-to-r from-gray-900 to-emerald-900 
+            absolute top-4 right-4 p-2 rounded-xl">
+            Try Now →
+          </button>
+        </div>
+
         {/* Heading and Site Logo */}
-        <div className="pt-12 pb-4">
+        <div className="mt-24 pb-4">
           <h1 className="text-4xl font-sans text-white font-bold text-center">
             Make beautiful fashion sketch designs without drawing
           </h1>
           <Image
             className="mx-auto p-3"
-            src="/icon.png" // Update with your logo image path
+            src="/icon.png" // 
             alt="Site Logo"
             width={200}
             height={200}
           />
         </div>
+
         {/* Info and media about app capabilities */}
         <div className="text-left p-8">
+          {/* Openning sentence describing app */}
           <p className="font-bold text-white font-lg">
             Create beautiful fashion designs quickly and easily by using verbal discriptions. 
             Make edits and adjust your designs easily with online tools. 
@@ -84,6 +101,8 @@ export default function Home() {
               height={500}
             />
           </div>
+
+          {/* Create designs section */}
           <h1 className="text-4xl text-white font-sans font-bold pb-4">
             Create beautiful designs
           </h1>
@@ -100,6 +119,8 @@ export default function Home() {
               height={500}
             />
           </div>
+
+          {/* Edit designs section */}
           <h1 className="text-4xl text-white font-sans font-bold pb-4">
             Edit designs to perfection
           </h1>
@@ -115,7 +136,16 @@ export default function Home() {
               width={270}
               height={500}
             />
+            <Image
+              className="mx-auto rounded-3xl opacity-80 pt-1"
+              src="/EditPrompt.png" 
+              alt="Site Logo"
+              width={270}
+              height={500}
+            />
           </div>
+
+          {/* Get inspiration sentence */}
           <h1 className="text-4xl text-white font-sans font-bold pb-4">
             Get inspiration
           </h1>
