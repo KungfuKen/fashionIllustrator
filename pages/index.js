@@ -57,18 +57,18 @@ export default function Home() {
         </Head>
 
         {/* Site banner*/}
-        <div className="w-screen h-20 bg-stone-900">
+        <div className="w-screen h-auto bg-black">
           <Image
-              className="top-3 left-4 absolute"
+              className="top-3 left-3 absolute"
               src="/Logo.png" // 
               alt="Site Logo"
               width={150}
               height={70}
             />
           <button className="font-bold font-lg bg-gradient-to-r from-gray-900 to-emerald-900 
-            absolute top-4 right-4 p-2 rounded-xl">
+            absolute top-4 right-2 p-2 rounded-xl">
             Try Now →
-          </button>
+          </button> 
         </div>
 
         {/* Heading and Site Logo */}
