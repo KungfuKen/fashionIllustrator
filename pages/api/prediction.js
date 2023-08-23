@@ -1,4 +1,4 @@
-export default async function handler(req, res) {
+/*export default async function handler(req, res) {
     const response = await fetch("https://api.replicate.com/v1/predictions", {
       method: "POST",
       headers: {
@@ -25,4 +25,4 @@ export default async function handler(req, res) {
     const prediction = await response.json();
     res.statusCode = 201;
     res.end(JSON.stringify(prediction));
-  }
+  }*/
