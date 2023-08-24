@@ -78,12 +78,12 @@ const NewsletterForm = ( { status, message, onValidated }) => {
         <div className="button-wrap wp-block-button">
           <button className="cursor-pointer mt-4 p-2 font-sans px-4 py-2 bg-transperant text-white hover:bg-gradient-to-b 
             from-emerald-900 to-gray-900 focus:outline-emerald-900 focus:ring-2 focus:ring-green-700 
-            rounded-3xl text-lg border border-white" onClick={handleFormSubmit}>
-            Submit
+            rounded-3xl text-lg border border-white animate-pulse-button" onClick={handleFormSubmit}>
+            Sign-up
           </button>
         </div>
       </div>
-      <div className="min-h-42px absolute bottom-3 left-3">
+      <div className="min-h-42px absolute bottom-3 right-3">
         { 'sending' === status ? <Loading showSpinner message="Sending..." contentColorClass="text-white" hasVisibilityToggle={false}/> : null }
         {'error' === status || error ? (
           <div

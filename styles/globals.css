@@ -55,3 +55,16 @@ input {
   width: 1.1em;
   height: 1.1em;
 }
+
+@keyframes pulse {
+    0%, 100% {
+        background-color: transparent;
+    }
+    50% {
+        background-color: rgba(31.4, 78.4, 47.1, 0.8); /* Adjust the color and opacity as needed */
+    }
+} 
+
+.animate-pulse-button {
+    animation: pulse 3s infinite;
+}

@@ -13,7 +13,7 @@ export default function Home() {
         <Head>
           <title>Fashion Sketch App</title>
         </Head>
-
+        
         {/* Site banner*/}
         <div className="w-screen">
           <Image
@@ -23,17 +23,17 @@ export default function Home() {
               width={150}
               height={70}
             />
-          {/*<button className="font-bold font-lg bg-gradient-to-r from-gray-900 to-emerald-900 
-            absolute top-5 right-2 p-2 rounded-xl">
-            Try Now →
-            </button> */}
+          <a href="#bottom" className="font-bold bg-gradient-to-r from-gray-900 to-emerald-900 
+            absolute top-5 right-3 p-2 rounded-3xl opacity-80">
+            Pricing →
+          </a>
         </div>
 
         {/* MOBILE: Heading and Site Logo */}
         <div className="bg-[url('/image1.png')] w-screen h-screen p-8 md:hidden flex justify-center items-center">
           <div>
             <h1 className="text-4xl font-sans text-white font-bold text-center">
-              Make beautiful fashion sketch designs without drawing
+              Create beautiful fashion sketch designs without drawing
             </h1>
             <div className="mt-5">
               <Image
@@ -51,13 +51,13 @@ export default function Home() {
         </div>
 
         {/* PC: Heading and Site Logo */}
-        <div className="pb-5 hidden md:block w-screen bg-[url('/image2.png')]">
+        <div className="pb-10 hidden md:block w-screen bg-[url('/image2.png')]">
           <div className="pt-24">
             <h1 className="text-4xl font-sans text-white font-bold text-center">
-              Make beautiful fashion sketch designs without drawing
+              Create beautiful fashion sketch designs without drawing
             </h1>
           </div>
-          <div className="mt-4">
+          <div className="mt-5">
             <Image
               className="mx-auto p-3"
               src="/icon-removebg-preview.png" // 
@@ -66,7 +66,7 @@ export default function Home() {
               height={200}
             />
           </div>
-          <div className="pb-7 mt-3">
+          <div className="pb-5 mt-3">
             <NewsletterSubscribe/>
           </div> 
         </div>
@@ -142,6 +142,25 @@ export default function Home() {
             <Image
               className="mx-auto rounded-3xl opacity-80"
               src="/gallary1.gif" 
+              alt="Site Logo"
+              width={300}
+              height={500}
+            />
+          </div>
+
+          {/* Pricing section */}
+         
+          <h1 className="text-4xl text-white font-sans font-bold pb-4">
+            Pricing 
+          </h1>
+          <p className="text-2xl text-white font-lg">
+            The pricing is yet to be announced but will be between $15 and $25 per month and a free
+            trial will be offered. 
+          </p>
+          <div className="rounded-2xl p-8">
+            <Image
+              className="mx-auto rounded-3xl opacity-80"
+              src="/pricing.png" 
               alt="Site Logo"
               width={300}
               height={500}
@@ -241,6 +260,55 @@ export default function Home() {
               </p>
             </div>
           </div>
+
+          {/* Pricing section */}
+          <div className="flex">
+            <div className="w-1/2 p-8">
+              <h1 className="text-4xl text-white font-sans font-bold pb-4">
+                Pricing 
+              </h1>
+              <p className="text-2xl text-white font-lg">
+                The pricing is yet to be announced but will be between $15 and $25 per month and a free
+                trial will be offered. 
+              </p>
+            </div>
+            <div className="rounded-2xl p-8 w-1/2">
+              <Image
+                className="mx-auto rounded-3xl opacity-80"
+                src="/pricing.png" 
+                alt="Site Logo"
+                width={300}
+                height={500}
+              />
+            </div>
+          </div>
+        
+        </div>
+        <div id="bottom" className="bg-black h-40">
+          <div className="w-screen h-20 p-3">
+            <Image
+                className=" left-3 absolute"
+                src="/Logo-removebg-preview.png" // 
+                alt="Site Logo"
+                width={150}
+                height={70}
+              />
+            <a href="#top" className="cursor-pointer mt-1 p-2 font-sans right-3 absolute bg-transperant text-white hover:bg-gradient-to-b 
+            from-emerald-900 to-gray-900 focus:outline-emerald-900 focus:ring-2 focus:ring-green-700 
+            rounded-3xl text-lg border border-white animate-pulse-button">
+              Sign up
+            </a>
+          </div>
+          <div className="w-fit absolute right-3">
+          <a href="https://www.instagram.com/fashion_illustrata" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-2xl shadow hover:opacity-80">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.5 3.5a8 8 0 0111.4 0 8 8 0 010 11.4 8 8 0 01-11.4 0 8 8 0 010-11.4zM16 11a4 4 0 11-8 0 4 4 0 018 0z" />
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.5 6.5l1 1" />
+            </svg>
+            <span>Instagram</span>
+          </a>
+          </div>
+          <p className="ml-3 mt-3">copyright © 2023</p>
         </div>
     </div>
   );
