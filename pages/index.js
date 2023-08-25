@@ -153,7 +153,7 @@ export default function Home() {
           <h1 className="text-4xl text-white font-sans font-bold pb-4">
             Pricing 
           </h1>
-          <p className="text-2xl text-white font-lg">
+          <p className="font-bold text-white font-lg">
             The pricing is yet to be announced but will be between $15 and $25 per month and a free
             trial will be offered. 
           </p>
