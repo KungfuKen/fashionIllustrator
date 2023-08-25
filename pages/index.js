@@ -23,16 +23,16 @@ export default function Home() {
               width={150}
               height={70}
             />
-          <a href="#bottom" className="font-bold bg-gradient-to-r from-gray-900 to-emerald-900 
+          <a href="#bottom" className="font-bold text-sm bg-gradient-to-r from-gray-900 to-emerald-900 
             absolute top-5 right-3 p-2 rounded-3xl opacity-80">
             Pricing →
           </a>
         </div>
 
         {/* MOBILE: Heading and Site Logo */}
-        <div className="bg-[url('/image1.png')] w-screen h-screen p-8 md:hidden flex justify-center items-center">
+        <div className="bg-[url('/image1.png')] w-screen h-fit p-8 md:hidden flex justify-center items-center">
           <div>
-            <h1 className="text-4xl font-sans text-white font-bold text-center">
+            <h1 className="text-4xl pt-24 font-sans text-white font-bold text-center">
               Create beautiful fashion sketch designs without drawing
             </h1>
             <div className="mt-5">
@@ -44,7 +44,7 @@ export default function Home() {
                 height={200}
               />
             </div>
-            <div className="mt-5">
+            <div className="mt-5 pb-7">
               <NewsletterSubscribe/>
             </div> 
           </div>  
