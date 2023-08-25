@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div className="bg-gradient-to-b from-black via-black to-gray-900 min-h-screen overflow-y-auto flex-col justify-center items-center">
         <Head>
-          <title>Fashion Sketch App</title>
+          <title>Fashion Sketcher</title>
         </Head>
         
         {/* Site banner*/}
