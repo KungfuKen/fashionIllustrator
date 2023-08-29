@@ -5,6 +5,7 @@ import Head from "next/head";
 import Image from "next/image";
 import "../styles/globals.css";
 import NewsletterSubscribe from "./NewsletterSubscribe";
+import { Analytics } from '@vercel/analytics/react';
 
 export default function Home() {
 
@@ -13,7 +14,7 @@ export default function Home() {
         <Head>
           <title>Fashion Sketcher</title>
         </Head>
-        
+        <Analytics />
         {/* Site banner*/}
         <div className="w-screen">
           <Image
