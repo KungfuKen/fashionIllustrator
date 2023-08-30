@@ -155,7 +155,7 @@ export default function Home() {
             Pricing 
           </h1>
           <p className="font-bold text-white font-lg">
-            The pricing is yet to be confirmed but free trials will be offered and pricing will be around 
+            The pricing is yet to be confirmed but free trials, and a free mode will be offered. The paid pricing will be around 
             $15 to $25 per month. 
           </p>
           <div className="rounded-2xl p-8">
@@ -269,8 +269,8 @@ export default function Home() {
                 Pricing 
               </h1>
               <p className="text-2xl text-white font-lg">
-                The pricing is yet to be confirmed but free trials will be offered and pricing will be around 
-                $15 to $25 per month. 
+                The pricing is yet to be confirmed but free trials, and a free mode will be offered. The paid pricing will be around 
+                $15 to $25 per month.  
               </p>
             </div>
             <div className="rounded-2xl p-8 w-1/2">
