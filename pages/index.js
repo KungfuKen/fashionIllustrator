@@ -15,20 +15,6 @@ export default function Home() {
         <Head>
           <title>Fashion Sketcher</title>
         </Head>
-        
-        <Helmet>
-          {/* Open Graph */}
-          <meta property="og:title" content="Fashion Sketcher" />
-          <meta property="og:description" content="Create beautiful fashion sketch designs without drawing" />
-          <meta property="og:image" content="https://drive.google.com/file/d/1qoHbQiBcTFd4loJnSo-HLFbwutsWqTuT/view?usp=sharing" />
-          <meta property="og:url" content="URL to the current page" />
-
-          {/* Twitter Card */}
-          <meta name="twitter:title" content="Fashion Sketcher" />
-          <meta name="twitter:description" content="Create beautiful fashion sketch designs without drawing" />
-          <meta name="twitter:image" content="https://drive.google.com/file/d/1qoHbQiBcTFd4loJnSo-HLFbwutsWqTuT/view?usp=sharing" />
-          <meta name="twitter:card" content="summary_large_image" />
-        </Helmet>
 
         <Analytics />
 
