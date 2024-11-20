@@ -22,7 +22,7 @@ export default function Home() {
         <div className="w-screen">
           <Image
               className="top-3 left-3 absolute"
-              src="../LogoDTB.png" // 
+              src="/LogoDTB.png" // 
               alt="Site Logo"
               width={150}
               height={70}
@@ -34,7 +34,7 @@ export default function Home() {
         </div>
 
         {/* MOBILE: Heading and Site Logo */}
-      <div className="bg-[url('../BG_img.png')] bg-cover bg-center w-full h-full p-8 md:hidden flex justify-center items-center">
+      <div className="bg-[url('/BG_img.png')] bg-cover bg-center w-full h-full p-8 md:hidden flex justify-center items-center">
         <div>
             <h1 className="text-4xl pt-24 font-sans text-white font-bold text-center">
             Advanced Connectivity and Network Infrastructure Consulting
@@ -42,7 +42,7 @@ export default function Home() {
             <div className="mt-5">
               <Image
                 className="mx-auto p-3"
-                src="../rating_icon.png" // 
+                src="/rating_icon.png" // 
                 alt="Site Logo"
                 width={220}
                 height={200}
@@ -55,7 +55,7 @@ export default function Home() {
         </div>
 
         {/* PC: Heading and Site Logo */}
-        <div className="pb-10 hidden md:block bg-cover bg-center w-full h-full bg-[url('../BG_img.png')]">
+        <div className="pb-10 hidden md:block bg-cover bg-center w-full h-full bg-[url('/BG_img.png')]">
           <div className="pt-24">
             <h1 className="text-4xl font-sans text-white font-bold text-center">
             Advanced Connectivity and Network Infrastructure Consulting            
@@ -64,7 +64,7 @@ export default function Home() {
           <div className="mt-5">
             <Image
               className="mx-auto p-3"
-              src="../rating_icon.png" // 
+              src="/rating_icon.png" // 
               alt="Site Logo"
               width={220}
               height={200}
@@ -90,7 +90,7 @@ export default function Home() {
           <div className="rounded-full p-4">
               <Image
                 className="mx-auto rounded-full opacity-80"
-                src="../Headshot.png" 
+                src="/Headshot.png" 
                 alt="Site Logo"
                 width={120}
                 height={120}
@@ -160,7 +160,7 @@ export default function Home() {
             <div className="rounded-full p-8 w-1/4">
               <Image
                 className="mx-auto rounded-full opacity-80"
-                src="../Headshot.png" 
+                src="/Headshot.png" 
                 alt="Site Logo"
                 width={150}
                 height={150}
@@ -208,7 +208,7 @@ export default function Home() {
           <div className="flex items-center space-x-2 mb-2">
               <Image
                 className=""
-                src="../Email_Icon.png" // 
+                src="/Email_Icon.png" // 
                 alt="Site Logo"
                 width={50}
                 height={22}
@@ -225,7 +225,7 @@ export default function Home() {
           <div className="flex items-center space-x-2 mb-4">
             <Image
                 className=""
-                src="../WhatsApp_Icon.png" // 
+                src="/WhatsApp_Icon.png" // 
                 alt="Site Logo"
                 width={50}
                 height={22}
@@ -242,7 +242,7 @@ export default function Home() {
           <div className="flex items-center space-x-2">
           <Image
                 className=""
-                src="../LinkedIn_Icon.png" // 
+                src="/LinkedIn_Icon.png" // 
                 alt="Site Logo"
                 width={50}
                 height={22}
@@ -261,7 +261,7 @@ export default function Home() {
           <div className="w-screen h-20 p-3">
             <Image
                 className=" left-3 absolute"
-                src="../LogoDTB.png" // 
+                src="/LogoDTB.png" // 
                 alt="Site Logo"
                 width={150}
                 height={70}
