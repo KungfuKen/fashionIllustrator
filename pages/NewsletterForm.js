@@ -63,13 +63,13 @@ const NewsletterForm = ( { status, message, onValidated }) => {
 
   return (
     <div>
-      <h3 className="mb-1 text-2xl font-sans text-white font-bold text-center">Join the waiting list</h3>
+      <h3 className="mb-1 text-2xl font-sans text-white font-bold text-center">Educational Newsletter on Advanced Networking Topics</h3>
       <div className="flex flex-col items-center newsletter-input-fields">
         <div className="mc-field-group mt-3"> 
           <input
             onChange={(event) => setEmail(event?.target?.value ?? '')}
             type="email"
-            placeholder="Your email"
+            placeholder="Your Email"
             className="bg-transparent relative font-sans
             max-h-[512px] w-full flex items-stretch rounded-3xl"
             onKeyUp={(event) => handleInputKeyEvent(event)}
