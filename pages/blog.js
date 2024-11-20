@@ -53,7 +53,7 @@ export default function Blog() {
         </Link>
       </div>
       
-      <h1 className="text-white text-4xl font-bold mb-6 text-center">Blog Articles</h1>
+      <h1 className="text-white text-4xl font-bold mb-6 text-center">Blog Articles (coming soon)</h1>
 
       <div className="space-y-6">
         {articles.map((article, index) => (
