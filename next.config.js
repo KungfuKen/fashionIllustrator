@@ -1,11 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+  images: {
+    domains: ['replicate.delivery'], // Add any other allowed domains here
+  },
+};
 
-// next.config.js
-module.exports = {
-    images: {
-      domains: ['replicate.delivery'], // Add any other allowed domains here
-    },
-    nextConfig,
-  };
-  
+module.exports = nextConfig;
+
