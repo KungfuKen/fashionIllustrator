@@ -9,19 +9,19 @@ import Link from 'next/link';
 
 const articles = [
   {
-    title: 'How this website was made',
+    title: 'How I Made this Website in One Day',
     image: '/NextJSImage.jpg', // Replace with an actual image path
     description: "I explain how this website was made and how it is hosted",
     link: '/articles/understanding-tailwind-next',
   },
   {
-    title: 'Simulation of Mesh Networks for IIOTs',
+    title: 'Simulation of Simple Mesh Networks for IIOTs',
     image: '/MeshImage.png', // Replace with an actual image path
     description: "I am currently simulating mesh wireless network for underground mine connectivity",
     link: '/articles/portfolio-next',
   },
   {
-    title: 'Performance comparison of Routing Protocols',
+    title: 'Coming Soon: Performance comparison of Routing Protocols',
     image: '/RoutingImage.svg', // Replace with an actual image path
     description: "I intend to simulate the performace of various routing protocals. I will then attempt to create my own high performce protocal",
     link: '/articles/optimizing-performance',
