@@ -32,6 +32,9 @@ export default function Blog() {
   return (
     <div className="w-full bg-gradient-to-r from-black to-emerald-900 p-8 mb-8 rounded-lg opacity-80 
     mt-20">
+      <Head>
+          <title>DTB insights</title>
+        </Head>
       {/* Site banner */}
       <div className="w-screen">
          <Link href="/" legacyBehavior>
