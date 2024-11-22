@@ -11,14 +11,14 @@ const articles = [
   {
     title: 'How I Made this Website in One Day',
     image: '/NextJSImage.jpg', // Replace with an actual image path
-    description: "I explain how this website was made and how it is hosted",
-    link: '/articles/understanding-tailwind-next',
+    description: "Find out how this webapp was made and is hosted",
+    link: '/blogs/website',
   },
   {
     title: 'Simulation of Simple Mesh Networks for IIOTs',
     image: '/MeshImage.png', // Replace with an actual image path
     description: "I am currently simulating mesh wireless network for underground mine connectivity",
-    link: '/articles/portfolio-next',
+    link: '/blogs/meshsim',
   },
   {
     title: 'Coming Soon: Performance comparison of Routing Protocols',
@@ -53,7 +53,7 @@ export default function Blog() {
         </Link>
       </div>
       
-      <h1 className="text-white text-4xl font-bold mb-6 text-center">Blog Articles (coming soon)</h1>
+      <h1 className="text-white text-4xl font-bold mb-6 text-center">Blog Articles</h1>
 
       <div className="space-y-6">
         {articles.map((article, index) => (
