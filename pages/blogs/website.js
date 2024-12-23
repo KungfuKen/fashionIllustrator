@@ -79,7 +79,7 @@ export default function BlogPost() {
         />
       </div>
 
-      <div className="space-y-6 text-gray-200 text-lg" dangerouslySetInnerHTML={{ __html: articleContent.content }} />
+      <div className="space-y-6 text-gray-200 text-lg p-10" dangerouslySetInnerHTML={{ __html: articleContent.content }} />
 
       {/* Back to Blog Link */}
       <div className="mt-8 text-center">

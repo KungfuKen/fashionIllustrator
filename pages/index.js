@@ -85,7 +85,7 @@ export default function Home() {
             My name is Dalitso T Banda. I'm an engineer specialising in network architecture and wireless connectivity.
           </p>
           <p className="font text-white text-lg">
-           I am interested in advanced Telecommunications, Mesh Networks, Network Protocols and Architecture, and Linux Systems. 
+           I am interested in advanced Telecommunications, Network Protocols and Architecture, and Linux Systems. 
           </p>
           <div className="rounded-full p-4">
               <Image
@@ -97,7 +97,7 @@ export default function Home() {
               />
           </div>
           <p className="font text-white text-lg mb-4">
-            Explore my insights on these topics by subscribing to my newsletter and following my blog.  
+            Explore my insights on these topics by followingmy blog and subscribing to my newsletter.  
           </p>
           <p className="font text-white text-lg mb-4">
             Feel welcome to reach out to me for collaboration and consultation.

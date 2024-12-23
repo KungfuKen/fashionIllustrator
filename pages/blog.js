@@ -9,6 +9,12 @@ import Link from 'next/link';
 
 const articles = [
   {
+    title: 'Wireless Mesh Networks Fully Explained',
+    image: '/RoutingImage.avif', // Replace with an actual image path
+    description: "A complete and concise guide to wireless mesh networks",
+    link: '/blogs/wmn_explained',
+  },
+  {
     title: 'How I Made this Website in One Day',
     image: '/NextJSImage.jpg', // Replace with an actual image path
     description: "Find out how this webapp was made and is hosted",
@@ -19,12 +25,6 @@ const articles = [
     image: '/MeshImage.png', // Replace with an actual image path
     description: "I am currently simulating mesh wireless network for underground mine connectivity",
     link: '/blogs/meshsim',
-  },
-  {
-    title: 'Coming Soon: Performance comparison of Routing Protocols',
-    image: '/RoutingImage.svg', // Replace with an actual image path
-    description: "I intend to simulate the performace of various routing protocals. I will then attempt to create my own high performce protocal",
-    link: '/articles/optimizing-performance',
   },
 ];
 
