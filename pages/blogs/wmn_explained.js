@@ -196,7 +196,7 @@ export default function BlogPost() {
       {/* Blog Post Content */}
       <h1 className="text-white text-4xl font-bold mb-4 text-center">{articleContent.title}</h1>
 
-      <div className="space-y-6 text-gray-200 text-lg pl-20 pr-20 pb-20 pt-10 ml-20 mr-20" dangerouslySetInnerHTML={{ __html: articleContent.content }} />
+      <div className="space-y-6 text-gray-200 text-lg p-10" dangerouslySetInnerHTML={{ __html: articleContent.content }} />
 
       {/* Back to Blog Link */}
       <div className="mt-8 text-center">
