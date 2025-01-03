@@ -13,29 +13,34 @@ export default function Home() {
   return (
     <div className="bg-gradient-to-b from-black via-black to-gray-900 min-h-screen overflow-y-auto flex-col justify-center items-center">
         <Head>
-          <title>DTB Insights | Network Architecture & Wireless Connectivity</title>
-          <meta name="description" content="Dalitso T Banda offers consulting services in network architecture and wireless connectivity. Explore insights on advanced telecommunications and network protocols." />
-          <meta name="keywords" content="Network Architecture, Wireless Connectivity, Telecommunications, Network Protocols, Linux Systems" />
-          <meta property="og:title" content="DTB Insights | Network Architecture & Wireless Connectivity" />
-          <meta property="og:description" content="Consulting services in network architecture and wireless connectivity. Explore insights on advanced telecommunications and network protocols." />
-          <meta property="og:image" content="/LogoDTB.png" />
+          <title>DTB Insights | Network Architecture & Wireless Consulting</title>
+          <meta name="description" content="Dalitso T Banda - Network architecture and wireless consulting expert. Learn about telecommunications, Linux systems, and network protocols." />
+          <meta name="keywords" content="Network Architecture, Wireless Connectivity, Telecommunications, Linux Systems, Network Protocols" />
+          <meta property="og:title" content="DTB Insights | Network Architecture & Wireless Consulting" />
+          <meta property="og:description" content="Consulting on network architecture and wireless connectivity. Explore advanced telecommunications and network protocols." />
+          <meta property="og:image" content="https://dtbinsights.com/LogoDTB.png" />
           <meta property="og:url" content="https://dtbinsights.com/" />
+          <meta name="twitter:card" content="summary_large_image"/>
+          <meta name="twitter:title" content="DTB Insights | Network Architecture & Wireless Consulting"/>
+          <meta name="twitter:description" content="Dalitso T Banda specializes in advanced network architecture and wireless systems consulting."/>
+          <meta name="twitter:image" content="https://dtbinsights.com/LogoDTB.png"/>
+
            {/* Structured Data (JSON-LD) */}
-          <script
+           <script
             type="application/ld+json"
             dangerouslySetInnerHTML={{
               __html: JSON.stringify({
                 "@context": "https://schema.org",
-                "@type": "Person",
-                "name": "Dalitso T Banda",
-                "url": "https://dtbinsights",
-                "image": "https://dtbinsights.com/Logo.png",
-                "description": "Dalitso T Banda is an engineer specializing in network architecture and wireless connectivity.",
+                "@type": "Organization",
+                "name": "DTB Insights",
+                "url": "https://dtbinsights.com/",
+                "logo": "https://dtbinsights.com/LogoDTB.png",
+                "description": "Dalitso T Banda offers consulting services in network architecture and wireless connectivity.",
                 "sameAs": [
                   "https://www.linkedin.com/in/dalitso-banda-6a5435189",
-                  "https://wa.me/27769547017",
-                ],
-              }),
+                  "https://wa.me/27769547017"
+                ]
+              })
             }}
           />
         </Head>
