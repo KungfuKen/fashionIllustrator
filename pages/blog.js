@@ -12,7 +12,7 @@ const articles = [
     title: 'Wireless Mesh Networks Fully Explained',
     image: '/RoutingImage.avif', // Replace with an actual image path
     description: "A complete and concise guide to wireless mesh networks",
-    link: '/blogs/wmn_explained',
+    link: '/blogs/wireless-mesh-networks-explained',
   },
   {
     title: 'How I Made this Website in One Day',

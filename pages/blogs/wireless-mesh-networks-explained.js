@@ -170,8 +170,21 @@ export default function BlogPost() {
   return (
     <div className="w-full bg-gradient-to-b from-black via-black to-gray-900 p-8 mb-8 rounded-lg mt-20">
       <Head>
-          <title>DTB Insights</title>
-      </Head>
+  	<title>A Complete and Concise Guide to Wireless Mesh Networks</title>
+  	<meta name="description" content="Learn everything about Wireless Mesh Networks (WMNs), including architectures, protocols, and applications for IoT, IIoT, smart homes, and emergency networks." />
+  	<meta name="keywords" content="Wireless Mesh Networks, WMNs, IoT, IIoT, Smart Homes, Mesh Network Protocols, Zigbee, Bluetooth Mesh, Infrastructure Mesh, Client Mesh, Hybrid Mesh, Network Topology, Emergency Networks, 5G Mesh Networks" />
+  	<meta name="author" content="DTB Insights" />
+  	<meta name="robots" content="index, follow" />
+  	<meta property="og:title" content="A Complete and Concise Guide to Wireless Mesh Networks" />
+  	<meta property="og:description" content="Explore Wireless Mesh Networks (WMNs) for IoT, smart homes, IIoT, and emergency communication. Understand architectures, protocols, and practical applications." />
+  	<meta property="og:image" content="/WirelessNetworks.png" />
+  	<meta property="og:type" content="article" />
+  	<meta property="og:url" content="https://yourwebsite.com/blogs/wireless-mesh-networks" />
+  	<meta property="twitter:card" content="summary_large_image" />
+  	<meta property="twitter:title" content="A Complete and Concise Guide to Wireless Mesh Networks" />
+  	<meta property="twitter:description" content="Wireless Mesh Networks explained! Learn about architectures, protocols, and use cases for IoT, IIoT, and smart home automation." />
+  	<meta property="twitter:image" content="/WirelessNetworks.png" />
+     </Head>
       {/* Site banner */}
       <div className="w-screen">
         <Link href="/" legacyBehavior>

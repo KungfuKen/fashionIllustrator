@@ -26,7 +26,7 @@ export default function Home() {
             dangerouslySetInnerHTML={{
               __html: JSON.stringify({
                 "@context": "https://schema.org",
-                "@type": "Business",
+                "@type": "Person",
                 "name": "Dalitso T Banda",
                 "url": "https://dtbinsights",
                 "image": "https://dtbinsights.com/Logo.png",
