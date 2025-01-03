@@ -18,12 +18,12 @@ export default function Home() {
           <meta name="keywords" content="Network Architecture, Wireless Connectivity, Telecommunications, Linux Systems, Network Protocols" />
           <meta property="og:title" content="DTB Insights | Network Architecture & Wireless Consulting" />
           <meta property="og:description" content="Consulting on network architecture and wireless connectivity. Explore advanced telecommunications and network protocols." />
-          <meta property="og:image" content="https://dtbinsights.com/LogoDTB.png" />
+          <meta property="og:image" content="https://dtbinsights.com/Logo.png" />
           <meta property="og:url" content="https://dtbinsights.com/" />
           <meta name="twitter:card" content="summary_large_image"/>
           <meta name="twitter:title" content="DTB Insights | Network Architecture & Wireless Consulting"/>
           <meta name="twitter:description" content="Dalitso T Banda specializes in advanced network architecture and wireless systems consulting."/>
-          <meta name="twitter:image" content="https://dtbinsights.com/LogoDTB.png"/>
+          <meta name="twitter:image" content="https://dtbinsights.com/Logo.png"/>
 
            {/* Structured Data (JSON-LD) */}
            <script
@@ -34,7 +34,7 @@ export default function Home() {
                 "@type": "Organization",
                 "name": "DTB Insights",
                 "url": "https://dtbinsights.com/",
-                "logo": "https://dtbinsights.com/LogoDTB.png",
+                "logo": "https://dtbinsights.com/Logo.png",
                 "description": "Dalitso T Banda offers consulting services in network architecture and wireless connectivity.",
                 "sameAs": [
                   "https://www.linkedin.com/in/dalitso-banda-6a5435189",
