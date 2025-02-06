@@ -67,7 +67,7 @@ export default function Home() {
       <div className="bg-[url('/BG_img.png')] bg-cover bg-center w-full h-full p-8 md:hidden flex justify-center items-center">
         <div>
             <h1 className="text-4xl pt-24 font-sans text-white font-bold text-center">
-            Advanced Connectivity and Network Infrastructure Consulting
+            Drive the Sales of Your IT/Telecommunications Products
             </h1>
             <div className="mt-5">
               <Image
@@ -88,7 +88,7 @@ export default function Home() {
         <div className="pb-10 hidden md:block bg-cover bg-center w-full h-full bg-[url('/BG_img.png')]">
           <div className="pt-24">
             <h1 className="text-4xl font-sans text-white font-bold text-center">
-            Advanced Connectivity and Network Infrastructure Consulting            
+            Drive the Sales of Your IT/Telecommunications Products
             </h1>
           </div>
           <div className="mt-5">
@@ -100,16 +100,27 @@ export default function Home() {
               height={200}
             />
           </div>
-          <div className="pb-5 mt-3">
-            <NewsletterSubscribe/>
+
+          <div className="pb-1 mt-3 justify-center items-center">
+            <h2 className="mb-3 text-2xl font-sans text-white font-bold text-center">Join the Waiting List for Advanced Industry Reports</h2>
+            <h2 className="mb-3 text-xl font-sans text-white font-bold text-center">Next Report is on Networking Connectivity in the Mining Industry</h2>
+            
+            <div className="flex justify-center items-center w-full">
+            <a href="https://zc.vg/JSkXs" className="cursor-pointer mt-2 p-4 font-sans px-4 py-2 bg-transperant text-white hover:bg-gradient-to-b 
+              from-emerald-900 to-gray-900 focus:outline-emerald-900 focus:ring-2 focus:ring-green-700
+              rounded-3xl text-lg border border-white animate-pulse-button">
+              Sign-up
+            </a>
+            </div> 
           </div> 
+
         </div>
 
         {/* @Mobile: Info and media about app capabilities */}
         <div className="text-left p-8 md:hidden">
           {/* Opening sentence describing app */}
           <p className="font-bold text-green-700 text-xl mb-4">
-           About Me
+           About
           </p>
           <p className="font text-white text-lg mb-4">
             My name is Dalitso T Banda. I'm an engineer specialising in network architecture and wireless connectivity.
@@ -171,7 +182,7 @@ export default function Home() {
           <div className="flex">
             <div className="w-3/4">
             <p className="font-bold text-green-700 text-2xl p-2">
-              About Me
+              About
             </p>
             <p className=" text-white p-2 text-xl font-lg">
               My name is Dalitso T Banda. I'm an engineer specialising in network architecture and wireless connectivity.
@@ -301,7 +312,7 @@ export default function Home() {
               Sign up
             </a>
           </div>
-          <p className="ml-3 mt-3">copyright © 2024</p>
+          <p className="ml-3 mt-3">copyright © 2025</p>
         </div>
     </div>
   );
