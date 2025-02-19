@@ -65,7 +65,7 @@ export default function Home() {
         <div className="pb-10 hidden md:block w-screen bg-[url('/image2.png')]">
           <div className="pt-24">
             <h1 className="text-4xl font-sans text-white font-bold text-center">
-              Create Fashion Sketches With Little Drawing
+              Create Fashion Sketches With Less Drawing
             </h1>
           </div>
           <div className="mt-5">
