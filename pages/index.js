@@ -35,7 +35,7 @@ export default function Home() {
         <div className="bg-[url('/image1.png')] w-screen h-fit p-8 md:hidden flex justify-center items-center">
           <div>
             <h1 className="text-4xl pt-24 font-sans text-white font-bold text-center">
-              Create Fashion Sketches With Little Drawing
+              Create Fashion Sketches With Less Drawing
             </h1>
             <div className="mt-5">
               <Image
